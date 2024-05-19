@@ -1,17 +1,46 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  height: 100%;
-  width: 100%;
-}
-
-#root{
-  height: 100vh;
-  width: 100vw;
-  background-color: #000;
-}
-
+/* Add styles here */
+:root {
+    --x: random(300);
+    --y: random(300);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  #root {
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+  }
+  
+  /* .star {
+    position: absolute;
+    opacity: 0;
+    z-index: 1000;
+    scale: 2;
+    transition: 1s;
+  } */
+  
+  
+  
+  
+  /* .staranimate{
+    opacity: 1;
+    animation-name: stars;
+    animation-duration: 3ms;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  
+  @keyframes stars{
+    0%{transform: translate(0,0)}
+    100%{transform: translate(random(500)px,random(500)px);}
+  } */
